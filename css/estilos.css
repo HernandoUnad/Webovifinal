@@ -1,0 +1,287 @@
+*{
+	box-sizing:border-box;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+main {
+	height: 100%;
+}
+section {
+	height: 100%;
+	padding: 4em 2em;
+	position: relative;
+	width: 100%;
+}
+header {
+	background-color: rgba(	0,0,0,0.5);
+	padding: 1em 2em;
+	position: fixed;
+	width: 100%;
+	z-index: 100;	
+}
+aside {
+	float: right;
+	height: 2.125rem;
+	margin-left: 1.85em;
+	width: 70%;
+}
+#multimedia iframe {
+	bottom: 0;
+	border: 10px solid rgba(0,0,0,0.5);
+	left: 50%;
+	margin: 0 auto 4.5em;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 50%;
+
+}
+#audio audio {
+	bottom: 0;
+	border: 10px solid rgba(0,0,0,0.5);
+	left: 50%;
+	margin: 0 auto 9.5em;
+	position: absolute;
+	transform: translateX(-50%); ;
+	width: 50%;
+}
+#audio img {
+	bottom: 0;
+	border: 10px solid rgba(0,0,0,0.5);
+	height: 30%;
+	width: 50%;
+	left: 50%;
+	margin: 0 auto 11.5em;
+	position: absolute;
+    padding: 0.5em 2em;
+	transform: translateX(-50%);	
+}
+#youtube iframe {
+	bottom: 0;
+	border: 10px solid rgba(0,0,0,0.5);
+	height: 50%;
+	left: 50%;
+	margin: 0 auto 9.5em;
+	position: absolute;
+	transform: translateX(-50%);
+	width: 50%;
+}
+#logo img {
+	background-size: contain;
+	float: left;
+	height: 2.125rem;
+	margin-left: 3.95em;
+	width: 12%;
+}
+nav {
+	float: right;
+	text-align: right;
+	width: 70%;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	border-right: 0.03125em solid rgba(255,255,255,1);
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+ul li a {
+	color: rgba(255, 255, 255, 1);
+	font-size: 0.95rem;
+	font-weight: 500;
+	letter-spacing: 0.3rem;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 1s;
+}
+ul li a:hover, ul li a:active {
+	color: rgba(0, 210, 100, 1);
+}
+ul li:nth-last-of-type(1) {
+	border-right: none;
+}
+#home {
+	background-color: rgba(0,0,0,0.6);
+	column-count: 2;
+	column-gap: 6em;
+	padding-top: 5em;
+}
+#home h2 {
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.5rem;
+	margin: 0;
+	position: relative;
+	text-align-last: center;
+	text-transform: uppercase;
+}
+#home p {
+	color: rgba(255, 255, 255, 1);
+	font-size: 0.9rem;
+	margin: 0;
+	padding: 0.2em 1em;
+	position: relative;
+}
+article {
+	column-count: 3;
+	column-gap: 5em;
+	padding-top: 0.5em;
+}
+article #imagen1 {
+	background-image: url(../images/imagen1.png)
+}
+article #imagen2 {
+	background-image: url(../images/imagen2.png)
+}
+article #imagen3 {
+	background-image: url(../images/imagen3.png)
+}
+article #imagen4 {
+	background-image: url(../images/imagen1.png)
+}
+article #imagen5 {
+	background-image: url(../images/imagen2.png)
+}
+article #imagen6 {
+	background-image: url(../images/imagen3.png)
+}
+article #imagen7 {
+	background-image: url(../images/rafael.png)
+}
+article #imagen8 {
+	background-image: url(../images/silvia.jpg)
+}
+article div {
+	background-size: cover;
+	border-radius: 50%;
+	border: 0.65em solid rgba(0,210,100,1);
+	height: 12rem;
+	margin: 0 auto 1.5em;
+	width: 12rem;
+}
+h3 {
+	color: rgba(0, 0, 0, 0.5);
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2rem;
+	margin: 0.5em;
+	text-transform: uppercase;
+}
+h4 {
+	color: rgba(0, 210, 100, 1);
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.5rem;
+	margin: 0.5em;
+	text-transform: uppercase;
+}
+article a {
+	background: linear-gradient(rgba(0,210,100,1), rgba(0,130,60,1));
+	border-radius: 0.25em;
+	color: rgba(255,255,255,1);
+	display: block;
+	font-size: 1.1rem;
+	font-weight: 500;
+	left: 50;
+	letter-spacing: 0.1rem;
+	margin: 1.25em auto 2em;
+	padding: 0.75em 0;
+	position: relative;
+	text-decoration: none;
+	top: 64;
+	width: 12rem;
+	z-index: 2;
+}
+#autores article {
+	column-count: 2;
+	column-gap: 6em;
+	padding-top: 0.5em;
+}
+footer {
+	background-color: rgba(0,0,0,0.6);
+	border-top: 0.5em solid rgba(0,210,100,1);
+	color: rgba(255, 255, 255, 1);
+	font-size: 0.8rem;
+	font-weight: 500;
+	padding: 0.4em 1em;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
