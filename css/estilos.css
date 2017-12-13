@@ -43,6 +43,7 @@ aside {
 #audio audio {
 	bottom: 0;
 	border: 10px solid rgba(0,0,0,0.5);
+	height: 50%;
 	left: 50%;
 	margin: 0 auto 9.5em;
 	position: absolute;
@@ -51,7 +52,6 @@ aside {
 }
 #audio img {
 	bottom: 0;
-	border: 10px solid rgba(0,0,0,0.5);
 	height: 30%;
 	width: 50%;
 	left: 50%;
